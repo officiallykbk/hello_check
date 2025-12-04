@@ -1,5 +1,7 @@
+### Test 1
+
 # Navigate to your project directory
-cd c:\Users\user\Desktop\CiCdTry
+# cd c:\Users\user\Desktop\CiCdTry
 
 # Build the Docker image
 docker build -t fastapi-app .
