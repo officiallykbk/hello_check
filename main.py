@@ -9,7 +9,7 @@ def read_root():
     return {"message": "Hello World from Jenkins!", "container_id": socket.gethostname()}
 
 @app.get("/health")
-def read_root():
+def new():
     return {"message": "At long last we ended with bang...maybe!"}
 
 
