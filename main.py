@@ -10,7 +10,7 @@ def read_root():
 
 @app.get("/health")
 def read_root():
-    return {"message": "At long last we ended with bang!"}
+    return {"message": "At long last we ended with bang...maybe!"}
 
 
 if __name__ == "__main__":
